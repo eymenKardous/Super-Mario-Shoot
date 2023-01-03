@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "superMarioBros";
+    src: url(../FONT/superMarioBros.ttf);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: superMarioBros;
+}
+
+body{
+    background-color: rgb(92, 148, 252);
+}
+
+#myCanvas{
+    background-image: url(../IMG/backgroundLvl.png);
+    height: 240px;
+    width: 1000px;
+    margin-left: 25%;
+    margin-top: 100px;
+    border: 6px solid black;
+    border-radius: 20px;
+}
+
+#play{
+    margin-left: 50%;
+    margin-top: 50px;
+    font-family: superMarioBros;
+}
+
